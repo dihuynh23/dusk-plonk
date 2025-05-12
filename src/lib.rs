@@ -62,7 +62,7 @@ if #[cfg(feature = "alloc")] {
 
     mod bit_iterator;
     mod compiler;
-    mod composer;
+    pub mod composer;
     mod runtime;
     mod util;
     mod transcript;

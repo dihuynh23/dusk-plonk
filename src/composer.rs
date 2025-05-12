@@ -18,7 +18,7 @@ use crate::error::Error;
 use crate::runtime::{Runtime, RuntimeEvent};
 
 mod circuit;
-mod compress;
+pub mod compress;
 mod constraint_system;
 mod gate;
 
